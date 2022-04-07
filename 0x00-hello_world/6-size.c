@@ -8,13 +8,13 @@
  *
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	printf("Size of a char: %d byte(s)\n",(int)  sizeof(char));
-	printf("Size of a int: %d byte(s)\n", (int) sizeof(int));
-	printf("Size of a long int: %d byte(s)\n", (int)  sizeof(long int));
-	printf("Size of a long long int: %d byte(s)\n" (int)  sizeof(long long int));
-	printf("Size of a float: %d byte(s)\n" (int)  sizeof(float));
-
+	printf("Size of a char: %lu\n", sizeof(char));
+	printf("Size of a int: %lu\n", sizeof(int));
+	printf("Size of a long int: %lu\n", sizeof(long));
+	printf("Size of a long long int: %lu\n", sizeof(long long));
+	printf("Size of a float: %lu\n", sizeof(float));
 	return (0);
 }
