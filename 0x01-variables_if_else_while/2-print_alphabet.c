@@ -9,14 +9,9 @@
 
 int main(void)
 {
-	int i = 97;
-
-	while (i < 123)
+	for(int x  = 'A'; x <= 'Z'; x++)
 	{
-		putchar(1);
-		i++
-	}
-
-	putchar(10)
-	return(0)
+		int low_case = tolower(x)
+		putchar(low_case)
+	}	
 }
