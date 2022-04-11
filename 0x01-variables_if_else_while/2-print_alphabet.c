@@ -9,14 +9,15 @@
 
 int main(void)
 {
-	int i = 'A';
+	int i = 97;
 
-	while (i <= 'Z')
+	while (i < 123)
 	{
-		int low_case = tolower(x);
-
-		putchar(low_case);
-
-		i++
+		putchar(i);
+		i++;
 	}
+
+	putchar(10);
+	
+	return (0);
 }
