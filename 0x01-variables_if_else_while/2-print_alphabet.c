@@ -9,10 +9,14 @@
 
 int main(void)
 {
-	for (int x  = 'A'; x <= 'Z'; x++)
+	int i = 'A';
+
+	while (i <= 'Z')
 	{
 		int low_case = tolower(x);
 
 		putchar(low_case);
+
+		i++
 	}
 }
