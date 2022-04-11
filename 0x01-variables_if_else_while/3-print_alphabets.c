@@ -9,13 +9,18 @@
  */
 int main(void)
 {
-	int i = 97;
+	int i = 65;
 
 	while (i < 123)
 	{
-		putchar(tolower(i));
-
-		putchar(toupper(i));
+		if (i < 90)
+		{
+			putchar(tolower(i));
+		}
+		else if (i > 96)
+		{
+			putchar(toupper(i));
+		}
 
 		i++;
 	}
