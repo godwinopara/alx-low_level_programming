@@ -8,11 +8,12 @@
  * Return: Always success.
  */
 
+
 int main(void)
 {
-	char low = a;
+	char low = 'a';
 
-	while (low <= z)
+	while (low <= 'z')
 	{
 		_putchar(low);
 		low++;
