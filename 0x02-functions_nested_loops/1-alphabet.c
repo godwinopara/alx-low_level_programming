@@ -12,12 +12,11 @@ void print_alphabet(void);
 
 int main(void)
 {
-	char low = 'a';
+	char alphabet;
 
-	while (low <= 'z')
+	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-		_putchar(low);
-		low++;
+		_putchar(alphabet);
 	}
 	_putchar('\n');
 	return (0);
