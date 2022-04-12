@@ -7,7 +7,6 @@
  *
  * Return: Always (success)
  */
-int _putchar(char c)
 
 int main(void)
 {
@@ -16,7 +15,3 @@ int main(void)
 	return (0);
 }
 
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
