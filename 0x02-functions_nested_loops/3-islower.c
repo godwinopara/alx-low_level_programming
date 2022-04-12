@@ -4,6 +4,8 @@
  * _islower - print 1 if character is lowercase
  * or 0 if character is uppercase
  *
+ * @c: contains value to be compared
+ *
  * Return: Always 0
  */
 
