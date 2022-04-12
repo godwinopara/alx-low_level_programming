@@ -18,9 +18,10 @@ int main(void)
 		{
 			putchar(tolower(i));
 		}
-		else if (i > 96)
+		else
 		{
-			putchar(toupper(i));
+			if (i > 96)
+				putchar(toupper(i));
 		}
 
 		i++;
