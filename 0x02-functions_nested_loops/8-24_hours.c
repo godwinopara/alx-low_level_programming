@@ -1,16 +1,20 @@
 #include "main.h"
 
+
 /**
- * jack_bauer - print every minute from 00:00 to 23:59
+ * print_min - print every minutes from 00 to 59
+ *
+ * @i : The argument for the hour example if I(hr) is 00
+ * and min is 50 it print out 00:50
  *
  * Return: Always 0.
  */
 
-void jack_bauer(void)
+void print_min(int i)
 {
-	for (int i = 0; i < 24; i++)
-	{
-		for (int j = 0; j < 60; j++)
+	int j = 0;
+
+		while (j < 60)
 		{
 			if (i < 10)
 			{
@@ -38,7 +42,27 @@ void jack_bauer(void)
 			{
 				printf("%d:%d\n", i, j)
 			}
+
+			j++;
 		}
+
+}
+
+/**
+ * jack_bauer - print every minute from 00:00 to 23:59
+ *
+ * Return: Always 0.
+ */
+
+
+void jack_bauer(void)
+{
+	int i = 0;
+
+	while (i < 24)
+	{
+		print_min(i);
+		i++;
 	}
 
 	return (0);
