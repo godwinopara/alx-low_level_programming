@@ -40,7 +40,7 @@ void print_min(int i)
 			}
 			else
 			{
-				printf("%d:%d\n", i, j)
+				printf("%d:%d\n", i, j);
 			}
 
 			j++;
@@ -64,6 +64,4 @@ void jack_bauer(void)
 		print_min(i);
 		i++;
 	}
-
-	return (0);
 }
