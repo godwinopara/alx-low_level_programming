@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: A program that print alphabet in lowercase and 
+ * Description: A program that print alphabet in lowercase and
  * then in uppercase followed by newline
  *
  * Return: Always (success)
@@ -14,7 +14,7 @@ int main(void)
 
 	while (i < 123)
 	{
-		if (i < 90)
+		if (i < 91)
 		{
 			putchar(tolower(i));
 		}
