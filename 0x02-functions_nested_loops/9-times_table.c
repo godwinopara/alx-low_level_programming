@@ -27,7 +27,7 @@ void times_table(void)
 			}
 			else if (k > 9)
 			{
-				printf("%1d", k);
+				printf("%1d, ", k);
 			}
 			else
 			{
