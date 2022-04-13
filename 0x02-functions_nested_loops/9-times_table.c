@@ -22,7 +22,8 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(i + ', ');
+				_putchar(i);
+				_putchar(', ');
 			}
 		}
 	}
