@@ -23,11 +23,15 @@ void times_table(void)
 
 			if (j == 9)
 			{
-				printf("%d", k);
+				printf("%2d", k);
+			}
+			else if (k > 9)
+			{
+				printf("%1d", k)
 			}
 			else
 			{
-				printf("%d, ", k);
+				printf("%2d, ", k);
 			}
 		}
 		printf("\n");
