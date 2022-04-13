@@ -22,7 +22,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = next_fib;
 
-		if (i < 50)
+		if (i < 49)
 		{
 			printf("%ld, ", next_fib);
 		}
