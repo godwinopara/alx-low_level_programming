@@ -31,6 +31,6 @@ int main(void)
 			printf("%ld", next_fib);
 		}
 	}
-
+	printf("\n");
 	return (0);
 }
