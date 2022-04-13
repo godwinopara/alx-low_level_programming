@@ -17,13 +17,13 @@ int main(void)
 	long int next_fib;
 	long int sum = 0;
 
-	for (i = 0; i < 4000000; i++)
+	for (i = 0; i < 50; i++)
 	{
 		next_fib = (fib1 + fib2);
 		fib1 = fib2;
 		fib2 = next_fib;
 
-		if ((next_fib % 2) == 0 && (next_fib <= 4000000))
+		if (((next_fib % 2) == 0) && (next_fib <= 4000000))
 		{
 			sum += next_fib;
 		}
