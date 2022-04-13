@@ -23,12 +23,11 @@ void times_table(void)
 
 			if (j == 9)
 			{
-				_putchar(k);
+				printf("%d", k);
 			}
 			else
 			{
-				_putchar(k);
-				_putchar(',' + ' ');
+				printf("%d, ", k);
 			}
 		}
 	}
