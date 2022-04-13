@@ -19,9 +19,17 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		next_fib = (fib1 + fib2);
-		printf("%ld, ", next_fib);
 		fib1 = fib2;
 		fib2 = next_fib;
+
+		if (i < 50)
+		{
+			printf("%ld, ", next_fib);
+		}
+		else
+		{
+			printf("%ld", next_fib)
+		}
 	}
 
 	return (0);
