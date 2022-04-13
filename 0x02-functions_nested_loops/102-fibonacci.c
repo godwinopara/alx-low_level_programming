@@ -28,7 +28,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld", next_fib)
+			printf("%ld", next_fib);
 		}
 	}
 
