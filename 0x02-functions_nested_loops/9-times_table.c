@@ -30,6 +30,6 @@ void times_table(void)
 				printf("%d, ", k);
 			}
 		}
-		_putchar('\n');
+		printf("\n");
 	}
 }
