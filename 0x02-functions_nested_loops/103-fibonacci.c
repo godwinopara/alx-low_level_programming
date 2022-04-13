@@ -15,6 +15,7 @@ int main(void)
 	long int fib1 = 0;
 	long int fib2 = 1;
 	long int next_fib;
+	long int sum = 0;
 
 	for (i = 0; i < 4000000; i++)
 	{
@@ -24,9 +25,9 @@ int main(void)
 
 		if ((next_fib % 2) == 0)
 		{
-			printf("%ld", next_fib);
+			sum += next_fib;
 		}
 	}
-	printf("\n");
+	printf("%ld\n", sum);
 	return (0);
 }
