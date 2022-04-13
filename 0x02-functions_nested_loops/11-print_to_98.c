@@ -47,6 +47,7 @@ void loop_in_decending(int n)
 			printf("%d, ", n);
 		}
 	}
+	printf("\n");
 }
 /**
  * print_to_98 - print from n (number in parameter) to 98
