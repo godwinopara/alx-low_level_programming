@@ -23,7 +23,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = next_fib;
 
-		if ((next_fib % 2) == 0)
+		if ((next_fib % 2) == 0 && (next_fib <= 4000000))
 		{
 			sum += next_fib;
 		}
