@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
  * print_line - print "-" on stdout
@@ -8,7 +8,7 @@
  * Return: Always success.
  */
 
-void print_line(int n);
+void print_line(int n)
 {
 	int i = 0;
 
