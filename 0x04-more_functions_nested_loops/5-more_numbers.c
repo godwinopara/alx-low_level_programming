@@ -33,7 +33,7 @@ void more_numbers(void)
 	{
 		print_0_to_9();
 		print_10_to_14();
-		_putchar('\n');
+		_putchar(10);
 		i++;
 	}
 }
